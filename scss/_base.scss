@@ -1,0 +1,26 @@
+// /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//  -------------------RESET GENERAL--------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba(82, 52, 24, 0.1);
+}
+
+@mixin centradoContenido($tipo, $ejeX, $ejeY) {
+    display: $tipo;
+    justify-content: $ejeX;
+    align-items: $ejeY;
+}
+
+@mixin contenidoImagen($ancho, $alto) {
+    width: $ancho;
+    height: $ancho;
+}

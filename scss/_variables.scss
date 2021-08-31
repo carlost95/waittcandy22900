@@ -1,0 +1,37 @@
+// VARIABLES GRADIENTE
+$gradienteFondo: rgb(36, 11, 54);
+$degradado1: rgba(195, 20, 50, 1);
+$degradado2:rgba(233, 45, 77, 1);
+$degradado3:rgba(235, 142, 158, 1);
+
+// ---------------Texto Page----------------
+
+$tipoLetraPrimario: 'Roboto',
+sans-serif;
+$tipoLetraSecundario:'Urbanist',
+sans-serif;
+
+
+$varianteLetra: uppercase;
+
+$ordenParrafo: justify;
+
+//-------------- card-------------
+
+$backgroundCard:#fbc3a2;
+
+// ------------variables de tabla en inicio-------------------
+$altoCarrucel:500px;
+
+$altoPremiosTabla: 120px;
+
+// ------------colores de botones------------------------
+$rojo:rgb(246, 52, 52);
+$verde: rgb(76, 170, 59);
+$violeta: #9e3081;
+$rosa: #FF3D68;
+
+$hoverBoton:#ffffff;
+
+$botones:(limpiar: $rojo, enviar: $verde);
+$botonesCard: (precio:$violeta, detalle: $rosa);

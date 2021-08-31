@@ -1,0 +1,70 @@
+@import './base';
+@import'./variables';
+
+// /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// /* -------------------------STYLES DE CARD------------------------------ */
+.card {
+    background-color: $backgroundCard;
+
+    &__contenedorImagen {
+        overflow: hidden;
+        height: 50%;
+    }
+
+    &__producto {
+        overflow: hidden;
+        height: 250px;
+    }
+
+    &__imagen {
+        @include contenidoImagen(100%, 100%);
+        object-fit: cover;
+        transition: all 1.5s;
+    }
+
+    &__contenedorImagen:hover img {
+        transform: scale(1.2);
+    }
+
+    &__parrafo {
+        font-family: $tipoLetraSecundario;
+    }
+
+    &__parrafo--orden {
+        text-align: $ordenParrafo;
+        font-size: 95%;
+    }
+
+    &__producto:hover img {
+        transform: scale(1.172);
+    }
+
+    &__video {
+        overflow: hidden;
+
+    }
+
+    &__video--ubicacion {
+        @include contenidoImagen(100%, 100%);
+        object-fit: cover;
+        border-radius: 5px;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 0 30px #d38c22;
+
+
+    }
+
+    &__titulo {
+        font-family: $tipoLetraPrimario;
+        text-transform: $varianteLetra;
+        text-align: center;
+
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}

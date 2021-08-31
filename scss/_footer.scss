@@ -1,0 +1,34 @@
+// IMPORTS
+@import './base';
+@import './variables';
+
+// /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// /* -------------------------FOOTER--------------------- */
+.footer {
+    // /* GRADIENTE */
+    background: $gradienteFondo;
+    background: linear-gradient(90deg, $gradienteFondo 8%, $degradado1 41%, $degradado2 63%, $degradado3 88%);
+    @include centradoContenido(flex, center, center);
+    margin-bottom: 0;
+
+    &__svg {
+        @include contenidoImagen(40px, 40px);
+        transition: 2s;
+    }
+
+    &__redesSociales {
+        @include contenidoImagen(100%, 75px);
+        display: inline-block;
+        text-align: center;
+    }
+
+    &__animacionRedes:hover {
+        transform: scale(1.3) rotate(360deg);
+    }
+
+    &__redesSociales li {
+        display: inline-block;
+        padding: 0.4%;
+        margin: 0.5%;
+    }
+}

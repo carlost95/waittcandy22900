@@ -1,0 +1,23 @@
+@import './variables';
+
+// ------------page promos----------------
+@each $key,
+$value in $botonesCard {
+    .boton__#{$key} {
+        border: 1px solid #000;
+        color: $value;
+        height: 55px;
+    }
+}
+
+@each $key,
+$value in $botonesCard {
+    .boton__#{$key}:hover {
+        background-color: $value;
+        color: $hoverBoton;
+        font-size: 150%;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 10px $value;
+        border-radius: 5px;
+    }
+}
