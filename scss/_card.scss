@@ -1,14 +1,17 @@
-@import './base';
 @import'./variables';
 
 // /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 // /* -------------------------STYLES DE CARD------------------------------ */
 .card {
     background-color: $backgroundCard;
+    display: inline-block !important;
+    padding: 0px;
 
     &__contenedorImagen {
         overflow: hidden;
         height: 50%;
+        border-top-right-radius: 4.3px;
+        border-top-left-radius: 4.3px;
     }
 
     &__producto {
@@ -31,8 +34,8 @@
     }
 
     &__parrafo--orden {
-        text-align: $ordenParrafo;
-        font-size: 95%;
+        text-align: $ordenParrafoCard !important;
+        font-size: 20px;
     }
 
     &__producto:hover img {
@@ -50,14 +53,12 @@
         border-radius: 5px;
         backdrop-filter: blur(8px);
         box-shadow: 0 0 30px #d38c22;
-
-
     }
 
     &__titulo {
         font-family: $tipoLetraPrimario;
         text-transform: $varianteLetra;
-        text-align: center;
+        text-align: $ordenParrafoCard;
 
     }
 
@@ -67,4 +68,6 @@
         justify-content: center;
 
     }
+
+
 }
