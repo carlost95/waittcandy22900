@@ -391,7 +391,7 @@ input[type=checkbox] {
 }
 
 .card__video {
-  overflow: hidden;
+  overflow: none;
 }
 
 .card__video--ubicacion {
@@ -400,7 +400,7 @@ input[type=checkbox] {
   object-fit: cover;
   border-radius: 5px;
   backdrop-filter: blur(8px);
-  box-shadow: 0 0 30px #d38c22;
+  box-shadow: 2px 2px 10px #e79a26;
 }
 
 .card__titulo {
