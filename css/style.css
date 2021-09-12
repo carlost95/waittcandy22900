@@ -219,6 +219,9 @@ body {
 
 .formulario {
   width: 100%;
+  background-color: #e92d4d;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .formulario__notificacion {

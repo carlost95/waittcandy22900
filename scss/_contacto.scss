@@ -4,6 +4,9 @@
 // ++++++++++++++++++++++++++CONTACTO FORMULARIO++++++++++++++++++++++++++++++++++++++++
 .formulario {
     width: 100%;
+    background-color: $degradado2;
+    padding: 10px;
+    border-radius: 5px;
 
     &__notificacion {
         @include centradoContenido(flex, space-between, center);
