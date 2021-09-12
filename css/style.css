@@ -11,6 +11,28 @@ body {
   background-color: rgba(253, 192, 122, 0.281);
 }
 
+.whatsApp {
+  display: block;
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+  padding: 10px 32px;
+  text-decoration: none;
+}
+
+.whatsApp__style {
+  color: green;
+  transition: 1.5s;
+}
+
+.whatsApp__style:hover {
+  transform: scale(1.2) rotate(1turn);
+}
+
+.whatsApp__texto {
+  color: green;
+}
+
 .navbar-container__gradiente {
   backdrop-filter: blur(8px);
   box-shadow: 0 0 20px #cc0066;
@@ -416,5 +438,8 @@ input[type=checkbox] {
   .card__parrafo--orden {
     text-align: justify;
     font-size: 75%;
+  }
+  .whatsApp {
+    display: none;
   }
 }
