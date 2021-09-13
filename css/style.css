@@ -217,6 +217,11 @@ body {
   object-fit: cover;
 }
 
+.row__novedades {
+  display: flex;
+  justify-content: space-between;
+}
+
 .formulario {
   width: 100%;
   background-color: #e92d4d;
@@ -415,6 +420,19 @@ input[type=checkbox] {
   justify-content: center;
 }
 
+.card__novedades {
+  width: 30%;
+}
+
+@media (max-width: 1000px) {
+  .card__novedades {
+    width: 45%;
+  }
+  .row__novedades {
+    justify-content: space-around;
+  }
+}
+
 @media (max-width: 768px) {
   .section__titulo {
     font-size: 150% !important;
@@ -440,9 +458,12 @@ input[type=checkbox] {
   }
   .card__parrafo--orden {
     text-align: justify;
-    font-size: 75%;
+    font-size: 90%;
   }
   .whatsApp {
     display: none;
+  }
+  .card__novedades {
+    width: 100%;
   }
 }

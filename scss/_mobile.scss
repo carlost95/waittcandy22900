@@ -1,5 +1,16 @@
 @import './variables';
 
+//----------------- mobile adapter------------------ 
+@media (max-width: 1000px) {
+    .card__novedades {
+        width: 45%;
+    }
+
+    .row__novedades {
+        justify-content: space-around;
+    }
+}
+
 // /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 // /* ----------------------------- Mobile First-------------------------------------*/
 @media (max-width: 768px) {
@@ -33,11 +44,14 @@
 
     .card__parrafo--orden {
         text-align: $ordenParrafo;
-        font-size: 95% - 20%;
+        font-size: 100% - 10%;
     }
 
     .whatsApp {
         display: none;
     }
 
+    .card__novedades {
+        width: 100%;
+    }
 }
