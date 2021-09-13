@@ -21,3 +21,8 @@ $value in $botonesCard {
         box-shadow: 0 0 10px $value;
     }
 }
+
+.row__promos {
+    display: flex;
+    justify-content: space-around;
+}

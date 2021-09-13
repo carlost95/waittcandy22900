@@ -321,6 +321,11 @@ input[type=checkbox] {
   box-shadow: 0 0 10px #FF3D68;
 }
 
+.row__promos {
+  display: flex;
+  justify-content: space-around;
+}
+
 .footer {
   background: #240b36;
   background: linear-gradient(90deg, #240b36 8%, #c31432 41%, #e92d4d 63%, #eb8e9e 88%);
