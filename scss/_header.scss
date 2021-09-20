@@ -28,9 +28,37 @@
         text-transform: uppercase;
         font-family: $tipoLetraPrimario;
         padding: 10px;
+        color: rgb(255, 247, 238) !important;
     }
 }
 
+
 .navbar-dark :hover {
-    color: black !important;
+    color: hsla(23, 84%, 75%, 0.863) !important;
+}
+
+.nav-link:hover {
+    font-style: italic;
+}
+
+.dropdown-menu {
+    // position: absolute;
+    background: $gradienteFondo;
+    background: linear-gradient(90deg, $gradienteFondo 8%, $degradado1 41%, $degradado2 63%, $degradado3 88%);
+    z-index: 10;
+    display: none;
+    min-width: 10rem;
+    margin: 0;
+    font-size: 1rem;
+    color: none !important;
+    text-align: left;
+    list-style: none;
+    background-color: unset !important;
+    background-clip: unset;
+    border: none;
+    border-radius: .25rem;
+}
+
+.dropdown-item {
+    color: aliceblue;
 }
