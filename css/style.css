@@ -251,7 +251,7 @@ body {
 
 .formulario {
   width: 100%;
-  background-color: #e92d4d;
+  background-color: #f8657e;
   padding: 10px;
   border-radius: 5px;
 }
@@ -383,6 +383,14 @@ input[type=checkbox] {
   display: inline-block;
   padding: 0.4%;
   margin: 0.5%;
+}
+
+.footer__autor {
+  color: white;
+}
+
+.footer ul {
+  margin-bottom: 0px;
 }
 
 .card {
