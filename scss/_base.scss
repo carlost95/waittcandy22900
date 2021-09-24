@@ -17,7 +17,7 @@ body {
 .whatsApp {
     display: block;
     position: fixed;
-    bottom: 60px;
+    bottom: 100px;
     right: 15px;
     padding: 10px 32px;
     text-decoration: none;
@@ -29,13 +29,10 @@ body {
     }
 
     &__style:hover {
-        transform: scale(1.2) rotate(1turn);
+        transform: scale(1.2);
 
     }
 
-    &__texto {
-        color: green;
-    }
 }
 
 
